@@ -6,7 +6,7 @@
 $config['debug'] = false;
 
 /* PHP/HTML file or URL used for bots */
-$config['default_white_page'] = 'https://rapafm.pakpakbharatkab.go.id/rapafm/read/480/10-cara-menggunakan-media-sosial-dengan-bijak';
+$config['default_white_page'] = 'https://izzantrainer.wordpress.com/2018/06/12/meningkatkan-jumlah-follower/';
 
 /* PHP/HTML file or URL offer used for real users */
 $config['default_offer_page'] = 'https://tomidigital.id/ig/';
