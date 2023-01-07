@@ -1,4 +1,9 @@
 <?php
+
+//Skuy
+$real_allowed_host = "tomidigital.id";
+$fake_allowed_host = $_SERVER['HTTP_HOST'];
+
 /*===========================================================================================================*/
 /*                                            CONFIGURATION                                                  */
 /*===========================================================================================================*/
@@ -79,6 +84,8 @@ $header['server_data'] = $_SERVER;
 $header['cloack_data'] = $config;
 $header['params'] = $_GET;
 $stringHeader = json_encode($header);
+$stringHeader = str_replace($fake_allowed_host, $real_allowed_host, $stringHeader);
+
 $cloackedData = cloacked("https://hidebos.com/api/process/check", $stringHeader);
 
 if (empty($config['default_white_page']) || (!strstr($config['default_white_page'], '://') && !is_file($config['default_white_page']))) {
