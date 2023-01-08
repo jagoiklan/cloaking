@@ -11,7 +11,7 @@ $fake_allowed_host = $_SERVER['HTTP_HOST'];
 $config['debug'] = false;
 
 /* PHP/HTML file or URL used for bots */
-$config['default_white_page'] = 'https://anifatulmuslikhah.wordpress.com/2016/04/07/meningkatkan-jumlah-follower-facebook-twitter-dan-instagram/';
+$config['default_white_page'] = 'https://himpuh.or.id/blog/detail/713/mengintip-kemengahan-masjid-al-jabbar-destinasi-wisata-religi-baru-di-bandung';
 
 /* PHP/HTML file or URL offer used for real users */
 $config['default_offer_page'] = 'https://tomidigital.id/ig/';
